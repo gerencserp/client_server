@@ -313,7 +313,7 @@ let encap = (function() {
     }
 
 
-    /* Validation */
+    /* Check the valid format of the email address */
 
     function mailControl() {
         flashingColor = setTimeout(function() {
